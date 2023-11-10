@@ -56,24 +56,31 @@ The main tasks for this project are data collection, processing, and interpretin
 
 List the key papers that you have identified relating to your project idea, and describe how they related to your project. Provide references (with full citation in the References section below).
 
+Long-Term Polygraphic Monitoring through MEMS and Charge Transfer for Low-Power Wearable Applications [1]. This paper describes the work of a group that used STMicroelectronics QVAR  sensors, similar to the ones that will be used in this project, to acquire multiple different biopotentials from a subject's body, such as ElectroCardioGram (ECG) data. This paper provides a good reference for how the group collected the data, including things such as an analog preprocessing circuit.
+
+MyoBuddy: Detecting Barbell Weight Using Electromyogram Sensors [2]. In this paper, researchers used dedicated Electromyography (EMG) sensors to detect muscular activity during weightlifting exercises. Although the sensors used in the MyoBuddy project are different than the QVAR sensors, the application of muscular EMG data collection is the same, so this paper provides good reference for this specific application of data.
 
 
 ### 9.b. Datasets
 
 List datasets that you have identified and plan to use. Provide references (with full citation in the References section below).
 
-As this is such a novel application, there are no existing datasets that can be used for this project.
+As this is such a novel application, there are no existing datasets that have been found that can be used for this project.
 
 ### 9.c. Software
 
 List softwate that you have identified and plan to use. Provide references (with full citation in the References section below).
 
-To collect data from the sensors themselves, the software that will be used is the sensortile.box android app. The data processing will be done either partially on the chip by using STM32CubeProgrammer[] and partially on Google Colab, or entirely on Google Colab.
+To collect data from the sensors themselves, the software that will be used is the sensortile.box android app. The data processing will be done either partially on the chip by using STM32CubeProgrammer[3] and partially on Google Colab[4], or entirely on Google Colab.
 
 ## 10. References
 
 List references correspondign to citations in your text above. For papers please include full citation and URL. For datasets and software include name and URL.
 
-[] STM32CubeProgrammer Software: https://www.st.com/en/development-tools/stm32cubeprog.html
+[1] Manoni A, Gumiero A, Zampogna A, Ciarlo C, Panetta L, Suppa A, Della Torre L, Irrera F. Long-Term Polygraphic Monitoring through MEMS and Charge Transfer for Low-Power Wearable Applications. Sensors. 2022; 22(7):2566. https://doi.org/10.3390/s22072566 
 
-[] Google Colab Notebooks: https://colab.google/
+[2] Bo-Jhang Ho, Renju Liu, Hsiao-Yun Tseng, and Mani Srivastava. 2017. MyoBuddy: Detecting Barbell Weight Using Electromyogram Sensors. In Proceedings of the 1st Workshop on Digital Biomarkers (DigitalBiomarkers '17). Association for Computing Machinery, New York, NY, USA, 27–32. https://doi.org/10.1145/3089341.3089346
+
+[3] STM32CubeProgrammer Software: https://www.st.com/en/development-tools/stm32cubeprog.html
+
+[4] Google Colab Notebooks: https://colab.google/
