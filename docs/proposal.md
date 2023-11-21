@@ -4,7 +4,7 @@
 
 What are you trying to do and why? (plain English without jargon)
 
-As technological sensors improve in their capabilities, their pool of possible applications also continues to widen. One main area of development is the use of technology in sports, with basketball being among the most prominent of them. This is the motivation for the current project, in which I aim to use both sensor data to help basketball players hone their shooting technique down to a science. By collecting QVAR Neuromuscular data and IMU acceleration data, the goal is to build a model to ensure that the athlete's muscles are firing with the exact same intensity and their arm is moving in the exact same manner for every shot.
+As technological sensors improve in their capabilities, their pool of possible applications also continues to widen. One main area of development is the use of technology in sports, with basketball being among the most prominent of them. This is the motivation for the current project, in which I aim to use various kinds of sensor data to help basketball players hone their shooting technique down to a science. By collecting both QVAR Neuromuscular data and IMU acceleration data, the goal is to build a model to ensure that the athlete's muscles are firing with the exact same intensity and their arm is moving in the exact same manner for every shot.
 
 ## 2. State of the Art & Its Limitations
 
