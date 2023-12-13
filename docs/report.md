@@ -98,7 +98,7 @@ When processing the Data, I had 2 main output results set as a goal: this first 
 <p align="center">
 <img src="https://github.com/usiddique81/QVAR-Hoops/assets/150395293/da968b30-8e11-4718-b3d1-8361e37cbb7c" height="200" />
 </p>
-With all of the data consolidated into a main 'micro' and 'macro' signal, the next step was to implement an algorithm which could detect similar instances within a signal, effectively keeping track of how many shots were taken across the entire span of the signal. One limitation that I had to keep in mind when deciding on an algorithm was that I did not have any lengthy training data sets, so there was no way for me to train any sort of classifier or neural network to be able to detect shots. Because of this, I decided to settle on using a Cosine similarity algorithm, which is very well explained [here](https://builtin.com/machine-learning/cosine-similarity). I manually selected a window in which a shot was taken, then swept that window across the entire length of the signal, keeping track of any instances where the cosine similarities were high enough to reasonably conclude that a shot had been taken. I used this method for both the IMU and QVAR data and it worked successfully. A use of this in the 10-shot data set from earlier is shown below, and as we can see the algorithm correctly Identifies all 10 shots that are taken in both the IMU and QVAR Data:
+With all of the data consolidated into a main 'micro' and 'macro' signal, the next step was to implement an algorithm which could detect similar instances within a signal, effectively keeping track of how many shots were taken across the entire span of the signal. One limitation that I had to keep in mind when deciding on an algorithm was that I did not have any lengthy training data sets, so there was no way for me to train any sort of classifier or neural network to be able to detect shots. Because of this, I decided to settle on using a Cosine similarity algorithm, which is very well explained here: (https://builtin.com/machine-learning/cosine-similarity). I manually selected a window in which a shot was taken, then swept that window across the entire length of the signal, keeping track of any instances where the cosine similarities were high enough to reasonably conclude that a shot had been taken. I used this method for both the IMU and QVAR data and it worked successfully. A use of this in the 10-shot data set from earlier is shown below, and as we can see the algorithm correctly Identifies all 10 shots that are taken in both the IMU and QVAR Data:
 <p align="center">
 <img src="https://github.com/usiddique81/QVAR-Hoops/assets/150395293/40e08229-8364-497a-b7b7-c321699d195e" height="300" />
 </p>
@@ -119,3 +119,20 @@ From these results, we can see that this multimodal sensor technology can be use
 Overall, this project serves as a stepping stone into the domain of QVAR Sensing in sports applications, and serves as a proof of concept to open up a plethora of new areas of development using this state of the art technology.
 
 # 6. References
+
+Manoni A, Gumiero A, Zampogna A, Ciarlo C, Panetta L, Suppa A, Della Torre L, Irrera F. Long-Term Polygraphic Monitoring through MEMS and Charge Transfer for Low-Power Wearable Applications. Sensors. 2022; 22(7):2566. https://doi.org/10.3390/s22072566 
+
+Bo-Jhang Ho, Renju Liu, Hsiao-Yun Tseng, and Mani Srivastava. 2017. MyoBuddy: Detecting Barbell Weight Using Electromyogram Sensors. In Proceedings of the 1st Workshop on Digital Biomarkers (DigitalBiomarkers '17). Association for Computing Machinery, New York, NY, USA, 27–32. https://doi.org/10.1145/3089341.3089346
+
+STM32CubeProgrammer Software: https://www.st.com/en/development-tools/stm32cubeprog.html
+
+Google Colab Notebooks: https://colab.google/
+
+Understanding cosine similarity and its applications. Built In. (n.d.). https://builtin.com/machine-learning/cosine-similarity 
+
+HomeCourt.AI App: https://www.homecourt.ai/
+
+Pison Technology: https://pisontechnology.com
+
+Roberto Merletti; Dario Farina, "Biophysics of the Generation of EMG Signals," in Surface Electromyography: Physiology, Engineering, and Applications , IEEE, 2016, pp.1-24, doi: 10.1002/9781119082934.ch02. https://ieeexplore.ieee.org/document/7471015
+
