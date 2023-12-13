@@ -1,5 +1,5 @@
 # QVAR Hoops
-This is the repository template for Umair Siddique's UCLA ECEM202A / CSM213A project, titled QVAR Hoops.
+This is the repository for Umair Siddique's UCLA ECEM202A / CSM213A project, titled QVAR Hoops.
 
 The folders are used as follows:
 
