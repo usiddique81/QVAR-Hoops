@@ -89,7 +89,7 @@ Once I had the calibration for both sensors figured out, I decided to go to the 
 </p>
 The updated data collection procedure isolated the desired data as best as possible, and at this point I had clear IMU Data for all 3 axes of motion (X, Y, and Z), as well as 2 channel QVAR data. This data was accurately and clearly representative of the shots that were taken in a given window, and so I decided to move into the data processing stage. Examples of the current state of the 3-axis IMU and 2-channel QVAR data are shown below.
 <p align="center">
-<img src="https://github.com/usiddique81/QVAR-Hoops/assets/150395293/ce3bc82d-0d17-4adf-98b2-f742a851e4da" height="200" />
+<img src="https://github.com/usiddique81/QVAR-Hoops/assets/150395293/ce3bc82d-0d17-4adf-98b2-f742a851e4da" height="400" />
 </p>
 
 ## b. Data Processing
@@ -108,8 +108,8 @@ Once these shots are collected, the next and final result that is sought is the 
 
 As shown earlier in the technical approach section, the first result of the project, the shot counter, was successful and worked as intended. With some tweaking of the code and some parameter optimization, I was able to get the algorithm to properly detect every instance of a shot being taken, in both the QVAR and IMU consolidated signals. However, the counter only serves as a sort of intermediate result, with the main final output being a consistency score along with a graph that players can use to see the of their shot, and work to improve over time. As detailed earlier, this was also calculated using cosine similarity between overlays of all of the identified shots from the previous data processing step. The successful final results of the algorithm from the 10-shot data set are shown below, with the IMU consistency score/graph on the left and the QVAR consistency score/graph on the right.
 <p align="center">
-<img src="https://github.com/usiddique81/QVAR-Hoops/assets/150395293/ab93e258-8f73-41a6-9a09-86d5c12da15f" height="200" />
-<img src="https://github.com/usiddique81/QVAR-Hoops/assets/150395293/ed10862c-94c6-4a85-83fd-135aa1caf77e" height="200" />
+<img src="https://github.com/usiddique81/QVAR-Hoops/assets/150395293/ab93e258-8f73-41a6-9a09-86d5c12da15f" height="300" />
+<img src="https://github.com/usiddique81/QVAR-Hoops/assets/150395293/ed10862c-94c6-4a85-83fd-135aa1caf77e" height="300" />
 </p>
 
 # 5. Discussion and Conclusions
