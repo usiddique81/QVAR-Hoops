@@ -8,7 +8,7 @@ As athletes continue to look to improve their game in many facets, one of the ma
 
 # Required Submissions
 
-* [Proposal](https://usiddique81.github.io/QVAR-Hoops/proposal.md)
+* [Proposal](proposal.md)
 * [Midterm Checkpoint Presentation Slides](https://docs.google.com/presentation/d/10Gqj0EP-LYWtTAKIrIHyLa5JLTon9RXgn1h7J-WJVWU/edit?usp=sharing)
 * [Final Presentation Slides](https://docs.google.com/presentation/d/1G064ZS4gKXAYPNUvRirchfiTECiC0jXCsWilc5z-gmc/edit?usp=sharing)
 * [Final Report](report.md)
