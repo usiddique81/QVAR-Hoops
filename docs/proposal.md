@@ -29,7 +29,7 @@ If successful, this project opens up a whole new horizon of possibilities for de
 
 What are the challenges and risks?
 
-There are challenges along every step of the way for this project, from data collection to processing to drawing conclusions from the data. For data collection, one challenge will be figuring out where to place the electrodes on the arm for the best readings. After the data has been collected, the next challenge will be figuring out how to process the data and which, if any, machine learning algorithm could be best applied to create a moedl whic could then be used to draw conclutions from the data. All of this, of course, will be under the time constraint of this class.
+There are challenges along every step of the way for this project, from data collection to processing to drawing conclusions from the data. For data collection, one challenge will be figuring out where to place the electrodes on the arm for the best readings. After the data has been collected, the next challenge will be figuring out how to process the data and which, if any, machine learning algorithm could be best applied to create a model which could then be used to draw conclutions from the data. All of this, of course, will be under the time constraint of this class.
 
 ## 6. Requirements for Success
 
